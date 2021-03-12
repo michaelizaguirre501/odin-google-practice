@@ -13,9 +13,7 @@ a{
     height: 19px;
 }
 
-.magnify{
-    height: 13px;
-}
+
 
 
 nav{
@@ -41,4 +39,42 @@ li.userProf a{
     font-size: 20px;
     padding:10px;
     color: white;
+}
+
+main{
+    height:90vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow:column wrap;
+}
+
+.logo, .searchbar, .underLinks>section{
+    padding-bottom:2.5rem;
+}
+
+input{
+    width:37vw;
+    
+}
+.magnify{
+    position: fixed;
+    height:18px;
+    padding-top:7px;
+    padding-left:3px;
+   
+}
+
+
+section.underLinks>section{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer.footer, footer.footer a{
+    color: grey;
+}
+
+nav.bot>p{
+    margin-left:-125px;
 }
