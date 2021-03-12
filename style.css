@@ -1,7 +1,44 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+li{
+    list-style: none;
+}
+a{
+    color:black;
+}
+
+
 .appsLogo{
     height: 19px;
 }
 
 .magnify{
     height: 13px;
+}
+
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+ul{
+    display:flex;
+    justify-content:space-between;
+    
+}
+
+ul li{
+    margin:17px;
+    
+}
+
+li.userProf a{
+    background-color:#ab47bc;
+    border-radius: 50%;
+    font-size: 20px;
+    padding:10px;
+    color: white;
 }
